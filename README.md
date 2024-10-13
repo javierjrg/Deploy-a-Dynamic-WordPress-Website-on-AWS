@@ -8,6 +8,7 @@
 This repository contains resources and scripts to deploy a dynamic WordPress website on Amazon Web Services (AWS). The project uses a variety of AWS services to ensure the WordPress website is highly available, scalable, and secure. It covers essential AWS services, including a three-tier VPC setup with public and private subnets, EC2 instances, RDS for MySQL, EFS, an Application Load Balancer, Auto Scaling, Route 53, SSL certificates, and more.
 
 ## **Table of Contents**
+- [MAC Model](#mac-model)
 - [Architecture Overview](#architecture-overview)
 - [AWS Services Used](#aws-services-used)
 - [Requirements](#requirements)
@@ -19,6 +20,9 @@ This repository contains resources and scripts to deploy a dynamic WordPress web
 - [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## MAC Model
+You can visit the full write-up ([MAC] (MAC-Model. md)) to understand why I chose AWS for this project and the detailed breakdown of the **Motivation**, **Architecture**, and **Challenges** (MAC).
 
 ## **Architecture Overview**
 1. **VPC**: A Virtual Private Cloud with public and private subnets across two Availability Zones (AZs) for fault tolerance and high availability.
