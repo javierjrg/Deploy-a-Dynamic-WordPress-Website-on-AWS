@@ -155,7 +155,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 1. Clone the repository to your local machine.
 2. Review the scripts and customize any necessary parameters, such as EFS DNS or EC2 settings.
 3. Deploy the resources using the provided scripts.
-4. For details on each AWS service configuration, refer to the official AWS documentation linked in the "Documentation" section.
+4. For details on each AWS service configuration, please take a look at the official AWS documentation ([documentation]( https://docs.aws.amazon.com/).
    
 ## **Contribution Guidelines**
 We welcome contributions! Please follow these steps:
