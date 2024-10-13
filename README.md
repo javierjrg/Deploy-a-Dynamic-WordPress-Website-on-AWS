@@ -22,7 +22,7 @@ This repository contains resources and scripts to deploy a dynamic WordPress web
 - [Acknowledgments](#acknowledgments)
 
 ## MAC Model
-You can visit the full write-up ([MAC] (MAC-Model. md)) to understand why I chose AWS for this project and the detailed breakdown of the **Motivation**, **Architecture**, and **Challenges** (MAC).
+You can visit the full write-up [here](MAC-Model.md) to understand why I chose AWS for this project and the detailed breakdown of the **Motivation**, **Architecture**, and **Challenges** (MAC).
 
 ## **Architecture Overview**
 1. **VPC**: A Virtual Private Cloud with public and private subnets across two Availability Zones (AZs) for fault tolerance and high availability.
