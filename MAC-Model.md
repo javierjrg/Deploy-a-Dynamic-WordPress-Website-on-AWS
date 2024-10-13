@@ -1,5 +1,3 @@
-# **Deploy a Dynamic WordPress Website on AWS**
-
 ## **Project Motivation, Architecture, and Challenges (Cloud Mac Model)**
 
 ## **Motivation**
@@ -22,4 +20,4 @@ The project follows a **three-tier architecture** hosted on AWS, structured as f
 
 2. **Load Balancer Health Checks**: 
    - **Issue**: The Application Load Balancer's health checks reported the EC2 instances as "Unhealthy" even when operating correctly. This prevented traffic from routing to them.
-   - **Solution**: After researching AWS documentation, I realized that the ALB health check was failing due to incorrect status codes in the check parameters. I updated the health check to accept HTTP status codes 200, 301, and 302, which resolved the issue, allowing the load balancer to recognize the instances as healthy correctly.
+   - **Solution**: After researching AWS documentation, I realized that the ALB health check was failing due to incorrect status codes in the check parameters. I updated the health check to accept HTTP status codes 200, 301, and 302, which resolved the issue and allowed the load balancer to recognize the instances as healthy correctly.
