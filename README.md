@@ -1,7 +1,8 @@
-![Alt text](Architecture_Reference_for_ Hosting_a_WordPress_Website_on_AWS.gif)
+![Architecture_Reference_for_ Hosting_a_WordPress_Website_on_AWS](https://github.com/user-attachments/assets/da44aecc-dc12-412f-bd49-0b99ae53b965)
 
 ---
 # **Deploy a Dynamic WordPress Website on AWS**
+
 
 ## **Project Description**
 This repository contains resources and scripts to deploy a dynamic WordPress website on Amazon Web Services (AWS). The project uses a variety of AWS services to ensure the WordPress website is highly available, scalable, and secure. It covers essential AWS services, including a three-tier VPC setup with public and private subnets, EC2 instances, RDS for MySQL, EFS, an Application Load Balancer, Auto Scaling, Route 53, SSL certificates, and more.
