@@ -1,3 +1,5 @@
+![Alt text](Architecture_Reference_for_ Hosting_a_WordPress_Website_on_AWS.gif.gif)
+
 # **Deploy a Dynamic WordPress Website on AWS**
 
 ## **Project Description**
@@ -20,7 +22,7 @@ This repository contains resources and scripts to deploy a dynamic WordPress web
 1. **VPC**: A Virtual Private Cloud with public and private subnets across two Availability Zones (AZs) for fault tolerance and high availability.
 2. **Internet Gateway**: Allows communication between instances within the VPC and the internet.
 3. **Security Groups**: Acts as virtual firewalls controlling inbound and outbound traffic to EC2 instances.
-4. **Public Subnets**: Used for the NAT Gateway and Application Load Balancer to facilitate external access and load balancing.
+4. **Public Subnets**: These are used for the NAT Gateway and Application Load Balancer to facilitate external access and load balancing.
 5. **Private Subnets**: Hosts the web servers to enhance security.
 6. **EC2 Instance Connect Endpoint**: Provides secure SSH access to the EC2 instances.
 7. **Application Load Balancer (ALB)**: Distributes incoming traffic across multiple EC2 instances.
@@ -37,13 +39,13 @@ Here is a brief description of each AWS service utilized in this project:
 1. **Amazon VPC**: Virtual Private Cloud allows users to define a logically isolated network environment.
 2. **EC2**: Elastic Compute Cloud provides scalable computing capacity in the AWS cloud.
 3. **Amazon RDS**: Relational Database Service manages MySQL database instances, reducing database management overhead.
-4. **Amazon EFS**: Elastic File System offers scalable file storage, shared across multiple instances.
+4. **Amazon EFS**: Elastic File System offers scalable file storage that will be shared across multiple instances.
 5. **Application Load Balancer (ALB)**: Automatically distributes traffic across multiple EC2 instances, enhancing fault tolerance.
 6. **Auto Scaling**: Automatically adjusts the number of EC2 instances to handle traffic surges.
 7. **AWS Certificate Manager**: Simplifies SSL/TLS certificate management.
-8. **Amazon SNS**: Simple Notification Service that sends notifications related to Auto Scaling and other system events.
+8. **Amazon SNS**: A Simple Notification Service that sends notifications related to Auto Scaling and other system events.
 9. **Amazon Route 53**: A scalable DNS web service to route traffic to web applications.
-10. **NAT Gateway**: Enables instances in a private subnet to connect to the internet or other AWS services.
+10. **NAT Gateway**: This allows instances in a private subnet to connect to the Internet or other AWS services.
 11. **Security Groups**: Act as firewalls for controlling traffic to EC2 instances.
 12. **EC2 Instance Connect**: Provides SSH access to EC2 instances without an external key pair.
 
@@ -161,7 +163,7 @@ We welcome contributions! Please follow these steps:
 4. Submit a pull request for review.
 
 ## **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. Please have a look at the [LICENSE](LICENSE) file for details.
 
 ## **Acknowledgments**
 Special thanks to:
