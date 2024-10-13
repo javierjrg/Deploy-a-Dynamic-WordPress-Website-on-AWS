@@ -1,5 +1,6 @@
 ![Alt text](Architecture_Reference_for_ Hosting_a_WordPress_Website_on_AWS.gif)
 
+---
 # **Deploy a Dynamic WordPress Website on AWS**
 
 ## **Project Description**
